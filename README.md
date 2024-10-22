@@ -3,7 +3,7 @@
 Problem Statement and Background:
 Deepfakes can distort our perception of the truth and we need to develop a strategy to improve their detection. Deep Fakes are increasingly detrimental to privacy, social security, and democracy. We plan to achieve better accuracy in predicting real and fake videos.
 
-![](Images/fakeimage.JPG)
+![](IMG/fakeimage.JPG)
 
 For an instance, Recently a video on social media has shown that a high ranked U.S legislator declared his own support for an enormous tax increase. At this point, people might tend to react accordingly because the video is exactly the same as the person by looks and voice. This way, DeepFake content can be used to manipulate people’s opinions. So, Deepfakes detection plays a prominent role in identifying fake content on social media and other forms of media.
 
@@ -20,25 +20,25 @@ label - whether the video is real or fake.
 original - in the case that a train set video is fake, the original video is listed here.
 split - this is always equal to "train
 
-![](Images/tools.JPG)
+![](IMG/tools.JPG)
 
 
 ## Preprocessing:
 Videos to frames Conversion - Captured frames using Vedio_Capture class of cv2 library from a video.
 Individual Video length (8 seconds) → 300 Frames
 
-![](Images/preprocess.JPG)
+![](IMG/preprocess.JPG)
 
 ## Methods:
 
-![](Images/dcgan.JPG)
+![](IMG/dcgan.JPG)
 
-![](Images/maml.JPG)
+![](IMG/maml.JPG)
 
 
 ## Result:
 
-![](Images/results.JPG)
+![](IMG/results.JPG)
 
 ## References:
 
